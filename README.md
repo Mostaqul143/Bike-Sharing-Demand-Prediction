@@ -21,7 +21,7 @@ The dataset used for the analysis contains information on various features such 
 
 **Model Evaluation:** Assess the performance of the models using evaluation metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R2) score.
 
-**Hyperparameter Tuning:*8 Fine-tune the model hyperparameters using techniques like Grid Search or Random Search to improve the model's performance.
+**Hyperparameter Tuning:** Fine-tune the model hyperparameters using techniques like Grid Search or Random Search to improve the model's performance.
 
 **Conclusion:** Summarize the key findings from the analysis, including the most accurate model and the significant features affecting the bike rental count.
 
@@ -29,8 +29,8 @@ The dataset used for the analysis contains information on various features such 
 
 Here are the key findings from the analysis:
 
-The XGBRegressor model, after hyperparameter tuning, achieved the highest accuracy with a score of 95.4%.
+The **XGBRegressor** model, after hyperparameter tuning, achieved the highest accuracy with a score of **95.4%**.
 
 Features such as hour, temperature, humidity, wind speed, and solar radiation showed strong correlations with the rented bike count.
 
-The decision tree regressor and random forest regressor also performed well, achieving accuracies of 86.4% and 92.5% respectively.
+The **Decision Tree Regressor** and **Random Forest Regressor** also performed well, achieving accuracies of **86.4%** and **92.5%** respectively.
